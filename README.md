@@ -42,6 +42,14 @@ where X is partition number of root partition. `/mnt` is conventional mount loca
 
 `mkdir /mnt/boot`
 
+### Mount Swap Partition
+
+`mkswap /dev/sdxy`
+
+`swapon /dev/sdxy`
+
+Where xy corresponds to swap device and partition.
+
 ### Mount Boot Partition
 
 `mount /dev/sdaX /mnt/boot`
