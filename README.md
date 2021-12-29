@@ -30,7 +30,7 @@
 
 where X is one of the partition numbers. Do this for each partition.
 
-## Setup Root Partition
+## Setup Partitions
 
 ### Mount Root
 
@@ -62,7 +62,7 @@ where X is partition number of boot partition.
 
 ## Generate fstab
 
-`genfstab -U /mnt >> /mnt/etc/fstab`
+`genfstab -U /mnt > /mnt/etc/fstab`
 
 -U means fstab will use UUID instead of drive ID (sda, sdb, ...)
 
