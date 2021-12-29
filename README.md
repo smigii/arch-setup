@@ -86,6 +86,12 @@ Create config
 
 `passwd`
 
+## Edit visudo
+
+`visudo`
+
+Uncomment line "allow group wheel to do whatever"
+
 ## Set Locale
 
 Edit locale.gen and uncomment locales to be used (`en_US.UTF-8 UTF-8` & `en_US ISO-8859-1`)
@@ -107,6 +113,12 @@ Add following line
 ## Set Hostname
 
 `vim /etc/hostname`
+
+## Add User
+
+`useradd -m NAME`
+
+`usermod -aG wheel NAME`
 
 ## Set Timezone
 
