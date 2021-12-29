@@ -74,11 +74,13 @@ This will take us from the ISO that we booted into, to the actual installation o
 
 ## Install Some Tools
 
-`pacman -S networkmanager grub git`
+`pacman -S networkmanager grub openssh`
 
-## Setup Systemd Networking
+## Setup Systemd Networking and SSH
 
 `systemctl enable NetworkManager`
+
+`systemctl enable sshd`
 
 ## Configure Grub
 
