@@ -130,6 +130,8 @@ Add following line
 
 `usermod -aG wheel NAME`
 
+`passwd NAME`
+
 ## Set Timezone
 
 Find timezone
