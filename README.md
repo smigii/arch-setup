@@ -58,7 +58,7 @@ where X is partition number of boot partition.
 
 ## Let Pacstrap Install Everything
 
-`pacstrap /mnt base base-devel linux linux-firmware vim`
+`pacstrap /mnt base base-devel linux linux-firmware`
 
 ## Generate fstab
 
@@ -74,7 +74,7 @@ This will take us from the ISO that we booted into, to the actual installation o
 
 ## Install Some Tools
 
-`pacman -S networkmanager grub openssh htop lm_sensors`
+`pacman -S networkmanager grub openssh htop lm_sensors vim git`
 
 ## Setup Systemd Networking and SSH
 
