@@ -74,7 +74,7 @@ This will take us from the ISO that we booted into, to the actual installation o
 
 ## Install Some Tools
 
-`pacman -S networkmanager grub openssh htop lm_sensors vim git`
+`pacman -S networkmanager grub openssh htop lm_sensors vim neovim git`
 
 ## Setup Systemd Networking and SSH
 
